@@ -3,8 +3,23 @@
 <head>
     <title>Zubby R-P-S</title>
     <meta charset="UTF-8">
+    <script src="domtestRPS.js" defer></script>
+    <link rel="stylesheet" href="zubbyRPS.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <header><h1>Zubby Rock, Paper, Scissors!</h1></header>
+    <div class="scoreboard">
+        <div class = "badge"> User </div>
+        <span id="userScore">0</span>:<span id="compScore">0</span>
+        <div class = "badge"> Computer </div>   
+    </div>
+    <div class="result">
+        <p>What is your first choice?</p>
+    </div>
+    <div class="choices">
+        <button id="rock"> Rock </button>
+        <button id="paper"> Paper </button>
+        <button id="scissors"> Scissors </button>
+    </div>
 </body>
 </html>
